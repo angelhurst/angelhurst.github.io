@@ -5,9 +5,116 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #1f2028 !important;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+nav{
+  background-color: #1f2028 !important;
+}
+
+.header{
+  margin-top: 8rem;
+}
+
+.header-gears{
+  height: 150px;
+}
+
+.header-buttom{
+  height: 50px;
+  width: 50px;
+} 
+
+
+.stick-note{
+  /* width: 150px; */
+  /* height: 150px; */
+  display: flex;
+  align-items: center;
+  border-radius: 0% 0% 40px 0%;
+  transform:  rotate(5deg);
+  transition: all .3s;
+}
+
+.stick-note::before,.stick-note::after{
+  content: "";
+  position: absolute;
+  z-index: 1; 
+  right: 0px;
+  bottom: 0px;
+  width: 40px; 
+  height: 40px;
+  border-radius: 0% 0% 40px 0%;
+  box-shadow: 0px 5px 25px rgba(0, 0,0,.9) ; 
+  transform: skew(-5deg) rotate(-3deg) ;
+  
+}
+
+.stick-note:hover{
+  transform:  rotate(-5deg);
+}
+
+
+.gears-1 {
+  height: 70px;
+  width: 70px;
+  right: 10px;
+  bottom: 30px;
+  position: absolute;
+  pointer-events: none;
+}
+
+.gears-2 {
+  height: 50px;
+  width: 50px;
+  right: 0px;
+  bottom: 100px;
+  position: absolute;
+  pointer-events: none;
+  transform: rotate(10deg);
+}
+
+.gears-3 {
+  height: 50px;
+  width: 50px;
+  right: 70px;
+  bottom: 0px;
+  position: absolute;
+  pointer-events: none;
+  transform: rotate(-10deg);
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .gears-1 {
+    animation: App-logo-spin infinite 6s linear;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .gears-2,.gears-3 {
+    animation: App-logo-spin2 infinite 6s linear;
+  }
+}
+
+@keyframes App-logo-spin2 {
+  from {
+    transform: rotate(360deg);
+  }
+  to {
+    transform: rotate(0deg);
+  }
 }

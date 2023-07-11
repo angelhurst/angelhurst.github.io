@@ -18,7 +18,7 @@ nav{
 }
 
 .header{
-  margin-top: 8rem;
+  padding-top: 10rem;
 }
 
 .header-gears{
@@ -30,10 +30,10 @@ nav{
   width: 50px;
 } 
 
-
 .stick-note{
   /* width: 150px; */
-  /* height: 150px; */
+
+  height: 200px;
   display: flex;
   align-items: center;
   border-radius: 0% 0% 40px 0%;
@@ -58,7 +58,6 @@ nav{
 .stick-note:hover{
   transform:  rotate(-5deg);
 }
-
 
 .gears-1 {
   height: 70px;
@@ -117,4 +116,50 @@ nav{
   to {
     transform: rotate(0deg);
   }
+}
+
+#abount{
+  padding-top: 10rem;
+}
+
+.abount-arc-1{
+  background-color: #174867;
+}
+
+.abount-arc-2{
+  background-color: #78c842;
+}
+
+.text-gray{
+  color: #a9adc1 !important;
+}
+
+.bg-green{
+  background-color: #78c842 !important;
+}
+
+.btn-cv{
+  background-color: #78c842 !important;
+  color: black !important;
+  border-color: #78c842 !important;
+}
+
+.btn-cv:hover{
+  background-color: #2f4f19 !important;
+  color: white !important;
+  border-color: #2f4f19 !important;
+}
+
+#porfolio{
+  margin-top: 10rem;
+  height: 500px;
+  /* background-color: #2e3039; */
+}
+
+.porfolio-msg{
+  background-color: #78c842 !important;
+  width: 500px;
+  right: 0;
+  bottom: 50%;
+  position: absolute;
 }

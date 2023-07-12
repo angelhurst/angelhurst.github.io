@@ -12,6 +12,7 @@ function Menu() {
           <Nav className="ms-auto">
             <Nav.Link className='' href="#home"><strong>Home</strong></Nav.Link>
             <Nav.Link className='' href="#abount"><strong>Sobre Mi</strong></Nav.Link>
+            <Nav.Link className='' href="#note"><strong>Notas</strong></Nav.Link>
             <Nav.Link href="#porfolio"><strong>Porfolio</strong></Nav.Link>
             <Nav.Link href="#skills"><strong>Skills</strong></Nav.Link>
             <Nav.Link href="#contact"><strong>Contacto</strong></Nav.Link>

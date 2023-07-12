@@ -2,9 +2,8 @@ import {Container, Row, Col}  from "react-bootstrap";
 import {Image} from "react-bootstrap";
 import {Button} from "react-bootstrap";
 
-
+import cv from "../docs/angel_hurst.pdf"
 import selfie from '../img/selfie.png'
-// import StickNote from "./StrickNote";
 
 function Abount(){
     return(
@@ -18,8 +17,13 @@ function Abount(){
                         </div>
                 </Col>
                 <Col xs="10"  xl="6" className="align-self-center mt-4 mt-xl-0 ms-xl-4">
-                    <h2 className="">Hola soy Ángel Hurst</h2>
-                    <p className="lead">Full-Stack Developer <Button className="mt-3 mt-sm-0 ms-sm-4 rounded-pill px-4 py-2 btn-cv"  size="sm">Descargar mi CV</Button> </p>
+                    <p className="h2 typewriter ">Hola soy Ángel Hurst</p>
+                        <p className="lead mt-3">Full-Stack Developer 
+                            <a href={cv}  download="Angel Hurst" target="_blank" rel="noreferrer">
+                                <Button className="mt-3 mt-sm-0 ms-sm-4 rounded-pill px-4 py-2 btn-cv"  size="sm">Descargar mi CV
+                                </Button>
+                            </a>
+                        </p>
                     <p className="text-gray h5"><strong>
                     Llegue a Chile desde Honduras,
                     soy un entusiasta del desarrollo de software, 
@@ -29,6 +33,7 @@ function Abount(){
                     </strong> </p>
                 </Col>
             </Row>
+            
         </Container>
     );
 }

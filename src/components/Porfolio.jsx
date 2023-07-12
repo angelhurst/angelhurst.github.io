@@ -7,7 +7,7 @@ const proyects =
         {
             title: 'Aquarov Fuel Guard',
             text: 'Plataforma web de telemétrica para dispositivos IOT, para la medición del consumo de combustible en las granjas de Salmon.',
-            shields : ['html','css','bootstrap','react','node','python','mongo','aws'],
+            shields : ['html','css','bootstrap','react','node','nextjs','python','mongo','aws'],
             images :[
                 require("../img/aquarov/login.png"),
                 require("../img/aquarov/dashboard.png"),
@@ -23,6 +23,20 @@ const proyects =
             ]
         },
         {
+            title: 'Napa AutoCare',
+            text: 'Plataforma web de talleres de autoservicio Napa, control de clientes, formularios de inspecciones, historial de vehiculos, reporte de trabajo.',
+            shields : ['html','css','bootstrap','react','node','django','postgresql','mongo'],
+            images :[
+                require("../img/servicenter/reduce/1.jpeg"),
+                require("../img/servicenter/reduce/2.jpeg"),
+                require("../img/servicenter/reduce/3.jpeg"),
+                require("../img/servicenter/reduce/4.jpeg"),
+                require("../img/servicenter/reduce/5.jpeg"),
+                require("../img/servicenter/reduce/6.jpeg"),
+                require("../img/servicenter/reduce/7.jpeg"),
+            ]
+        },
+        {
             title: 'Cemcol Logistic',
             text: 'Plataforma web de monitoreo de transferencias entre almacenes y centros de distribucion, con metricas de tiempo y control de estado.',
             shields : ['html','css','bootstrap','react','node','mongo'],
@@ -34,7 +48,7 @@ const proyects =
         {
             title: 'Cemcol SAC',
             text: 'Plataforma complementaria al ERP, con modulos de productos, clientes, inventarios.',
-            shields : ['html','css','bootstrap','javascript','django','postgresql'],
+            shields : ['html','css','bootstrap','javascript','django','db2'],
             images :[
                 require("../img/sac/reduce/login.jpeg"),
                 require("../img/sac/reduce/consulta.png"),

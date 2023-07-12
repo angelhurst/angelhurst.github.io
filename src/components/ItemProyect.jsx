@@ -8,7 +8,7 @@ function ItemProyect(props){
 
     return(
         <Row className="mb-5">
-            <Col xl="8" className={`${index % 2 === 0  ? 'order-1' : 'order-1 order-md-2 '}`} >
+            <Col xs="12" xl="8" className={`${index % 2 === 0  ? 'order-1' : 'order-1 order-xl-2 '}`} >
                 <Carousel className="text-center"  >
                     {images.map((item,index)=>{
                         return <Carousel.Item key={index}>
@@ -20,7 +20,7 @@ function ItemProyect(props){
                     })}
                 </Carousel>
             </Col>
-            <Col xl="4" className={`mt-3 mt-md-0 rounded ${index % 2 === 0  ? 'order-2' : 'order-2 order-md-1 '}`}>
+            <Col xs="12" xl="4" className={`mt-3 mt-md-0 rounded ${index % 2 === 0  ? 'order-2' : 'order-2 order-xl-1 '}`}>
                 <div className="bg-dangers mx-3 mt-2">
                     <h3 className="porfolio-titles"><strong>{title}</strong></h3>
                     <div className="porfolio-msg ">

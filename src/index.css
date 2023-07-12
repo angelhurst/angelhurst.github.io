@@ -138,6 +138,10 @@ nav{
   background-color: #78c842 !important;
 }
 
+.bg-blue{
+  background-color: #174867 !important;
+}
+
 .btn-cv{
   background-color: #78c842 !important;
   color: black !important;
@@ -151,15 +155,28 @@ nav{
 }
 
 #porfolio{
-  margin-top: 10rem;
-  height: 500px;
-  /* background-color: #2e3039; */
+  padding-top: 10rem;
 }
 
-.porfolio-msg{
-  background-color: #78c842 !important;
-  width: 500px;
-  right: 0;
-  bottom: 50%;
-  position: absolute;
+.porfolio-title{
+  color: #78c842 !important;
+}
+
+#skills{
+  padding-top: 10rem;
+  /* height: 3300px; */
+}
+
+#contact{
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+}
+
+.icon-contact{
+  height: 80px;
+  width: 80px;
+}
+
+footer{
+  height: 10rem;
 }

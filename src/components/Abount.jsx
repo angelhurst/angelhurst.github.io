@@ -19,12 +19,12 @@ function Abount(){
                 </Col>
                 <Col xs="10"  xl="6" className="align-self-center mt-4 mt-xl-0 ms-xl-4">
                     <h2 className="">Hola soy Ángel Hurst</h2>
-                    <p className="lead">Full-Stack Developer <Button className="ms-4 rounded-pill px-4 py-2 btn-cv"  size="sm">Descargar mi CV</Button> </p>
+                    <p className="lead">Full-Stack Developer <Button className="mt-3 mt-sm-0 ms-sm-4 rounded-pill px-4 py-2 btn-cv"  size="sm">Descargar mi CV</Button> </p>
                     <p className="text-gray h5"><strong>
                     Llegue a Chile desde Honduras,
                     soy un entusiasta del desarrollo de software, 
                     encontrando en el mismo un mundo de posibilidades,
-                    considerándolo la puerta hacia el mundo de la 
+                    considerándolo la puerta la 
                     Imaginación. 
                     </strong> </p>
                 </Col>

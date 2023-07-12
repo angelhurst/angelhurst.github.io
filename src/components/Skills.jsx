@@ -5,7 +5,7 @@ function Skills(){
     return (
         <Container id="skills" className="text-white">
             <Row className="justify-content-center">
-                <Col xs="9" xl="4" className="bg-info">
+                <Col xs="9" xl="4" className="">
                     <h2>Skills</h2>
                     <p className="lead">Lenguajes de Programacion</p>
                     <img className="ms-2" src={shieldsImages['javascript']} alt="" />

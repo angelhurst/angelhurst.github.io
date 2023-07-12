@@ -28,7 +28,7 @@ function Abount(){
                     Llegue a Chile desde Honduras,
                     soy un entusiasta del desarrollo de software, 
                     encontrando en el mismo un mundo de posibilidades,
-                    considerándolo la puerta la 
+                    considerándolo la puerta de la 
                     Imaginación. 
                     </strong> </p>
                 </Col>

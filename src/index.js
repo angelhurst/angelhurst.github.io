@@ -6,6 +6,12 @@ import reportWebVitals from './reportWebVitals';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 
+import ReactGA from 'react-ga';
+
+const TRACKING_ID = "G-97LSXMX291"; // YOUR_OWN_TRACKING_ID
+ReactGA.initialize(TRACKING_ID);
+ReactGA.pageview(window.location.pathname + window.location.search);
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>

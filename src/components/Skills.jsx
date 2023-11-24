@@ -9,6 +9,7 @@ function Skills(){
                     <h2>Skills</h2>
                     <p className="lead">Lenguajes de Programacion</p>
                     <img className="ms-2" src={shieldsImages['javascript']} alt="" />
+                    <img className="ms-2" src={shieldsImages['typescript']} alt="" />
                     <img className="ms-2" src={shieldsImages['python']} alt="" />
                     <img className="ms-2" src={shieldsImages['html']} alt="" />
                     <img className="ms-2" src={shieldsImages['css']} alt="" />
@@ -17,6 +18,8 @@ function Skills(){
                     <img className="ms-2" src={shieldsImages['react']} alt="" />
                     <img className="ms-2" src={shieldsImages['express']} alt="" />
                     <img className="ms-2" src={shieldsImages['nextjs']} alt="" />
+                    <img className="ms-2" src={shieldsImages['fastify']} alt="" />
+                    <img className="ms-2" src={shieldsImages['gatsby']} alt="" />
                     <img className="ms-2" src={shieldsImages['django']} alt="" />
                     <p className="lead mt-3">Bases de Datos</p>
                     <img className="ms-2" src={shieldsImages['postgresql']} alt="" />

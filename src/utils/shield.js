@@ -14,7 +14,13 @@ const shieldsImages ={
     nextjs : "https://img.shields.io/badge/-Next.js-black?style=flat-square&logo=next.js&logoColor=white",
     aws : "https://img.shields.io/badge/-AWS-%23FF9900?style=flat-square&logo=amazonaws&logoColor=black",
     docker : "https://img.shields.io/badge/-Docker-%232496ED?style=flat-square&logo=Docker&logoColor=white",
-    github : "https://img.shields.io/badge/-GitHub-%23181717?logo=github"
+    github : "https://img.shields.io/badge/-GitHub-%23181717?logo=github",
+    gatsby: "https://img.shields.io/badge/-gatsby-663399?logo=gatsby",
+    contenful :"https://img.shields.io/badge/-Contentful-2478CC?logo=contentful&logoColor=black",
+    fastify : "https://img.shields.io/badge/-fastify-000000?logo=fastify",
+    gcp : "https://img.shields.io/badge/-Google%20Cloud-4285F4?logo=googlecloud&logoColor=white",
+    typescript: "https://img.shields.io/badge/-typescript-3178C6?logo=typescript&logoColor=white"
+
 }
 
 export default shieldsImages;

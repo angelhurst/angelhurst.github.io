@@ -5,8 +5,20 @@ import ItemProyect from "./ItemProyect";
 const proyects =
     [
         {
+            title: 'Mallplaza',
+            text: 'Renovación del sito mallplaza.cl por cambio de marca, creación de componentes, microservicios y template.',
+            shields : ['html','css','react','typescript','gatsby','contenful','node','fastify','postgresql','gcp'],
+            images :[
+                require("../img/mallplaza/home.png"),
+                require("../img/mallplaza/mall.png"),
+                require("../img/mallplaza/scheduled.png"),
+                require("../img/mallplaza/menu.png"),
+                require("../img/mallplaza/form.png"),
+            ]
+        },
+        {
             title: 'Aquarov Fuel Guard',
-            text: 'Plataforma web de telemétrica para dispositivos IOT, para la medición del consumo de combustible en las granjas de Salmon.',
+            text: 'Plataforma web de telemétrica para dispositivos IOT, para la medición del consumo de combustible en las granjas de Salmón.',
             shields : ['html','css','bootstrap','react','node','nextjs','python','mongo','aws'],
             images :[
                 require("../img/aquarov/login.png"),
